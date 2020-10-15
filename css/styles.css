@@ -1,8 +1,45 @@
+/* Importation font */
+@font-face {
+    font-family: 'kionabold';
+    src: url('../font/kiona-bold-webfont.woff2') format('woff2'),
+         url('../font/kiona-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'kionaitallic';
+    src: url('../font/kiona-itallic-webfont.woff2') format('woff2'),
+         url('../font/kiona-itallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'kionaregular';
+    src: url('../font/kiona-regular-webfont.woff2') format('woff2'),
+         url('../font/kiona-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+}
 body {
 	display: flex;
 	flex-wrap: wrap;
+	background-color:;
+	padding: 0px;
+	margin: 0px;
 }
 
+
+
+/* Première colonne de mise en page */
 .premiere_horizontale {
 	display: flex;
  	justify-content: space-between;
@@ -10,11 +47,109 @@ body {
 }
 
 .presentation {
-	width: 30%;
+	width: 48%;
 	background-color: red;
 }
-
 .experiences {
-	width: 30%;
+	width: 48%;
 	background-color: blue;
 }
+
+
+
+/* Deuxième colonne de mise en page */
+.deuxieme_horizontale {
+	display: flex;
+ 	justify-content: space-between;
+ 	flex-flow: row;
+ 	width: 100%;
+}
+
+.texte_jaune {
+	width: 48%;
+	background-color: green;
+}
+.competences {
+	width: 48%;
+	background-color: gray;
+}
+
+
+
+/* Troisième colonne de mise en page */
+.troisieme_horizontale {
+	display: flex;
+ 	justify-content: space-between;
+ 	flex-flow: row;
+ 	width: 100%;
+}
+
+.contact-reseaux {
+	width: 48%;
+	background-color: purple;
+}
+
+.illustration {
+	width: 48%;
+	background-color: pink;
+}
+
+
+
+/* Présentation */
+h2 {
+	font-family: 'kionaregular';
+	text-align: right;
+}
+
+h2 span {
+	font-family: 'kionabold'; 
+	text-align: right;
+}
+
+h4 {
+	font-family: 'kionaitallic';
+	text-align: right;
+}
+
+.presentation_p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	text-align: right;
+}
+
+.langues_parlees {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	text-align: right;
+}
+
+.langues {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	text-align: right;
+	width: 100%;
+}
+
+.langues p span {
+	text-align: left;
+}
+
+
+
+/* Expérience */
+h3 {
+	font-family: 'kionabold';
+}
+
+.années {
+	font-family: 'kionabold';
+}
+
+.experiences_titre {
+	text-align: left;
+}
+
+.texte_jaune {
+	color: #fef082;
+	font-family: 'kionabold'; 
