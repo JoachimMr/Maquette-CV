@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.premiere_horizontale {
+	display: flex;
+ 	justify-content: space-between;
+ 	flex-flow: row;
+}
+
+.presentation {
+	width: 30%;
+	background-color: red;
+}
+
+.experiences {
+	width: 30%;
+	background-color: blue;
+}
