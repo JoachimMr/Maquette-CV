@@ -33,7 +33,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	background-color:;
-	padding: 0px;
+	padding: 3%;
 	margin: 0px;
 }
 
@@ -47,11 +47,11 @@ body {
 }
 
 .presentation {
-	width: 48%;
+	width: 46%;
 	background-color: red;
 }
 .experiences {
-	width: 48%;
+	width: 50%;
 	background-color: blue;
 }
 
@@ -66,11 +66,11 @@ body {
 }
 
 .texte_jaune {
-	width: 48%;
+	width: 60%;
 	background-color: green;
 }
 .competences {
-	width: 48%;
+	width: 40%;
 	background-color: gray;
 }
 
@@ -96,43 +96,54 @@ body {
 
 
 
+
 /* Présentation */
+
 h2 {
 	font-family: 'kionaregular';
 	text-align: right;
+	font-size: 4vmax; 
 }
 
 h2 span {
 	font-family: 'kionabold'; 
 	text-align: right;
+	font-size: 150%;
 }
 
-h4 {
+h4{
 	font-family: 'kionaitallic';
 	text-align: right;
+	font-size: 1.8vmax;
 }
 
 .presentation_p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
+	font-size: 1.4vmax;
 	text-align: right;
+}
+
+#blabla {
+	font-family: 50px;
+	text-align: justify;
 }
 
 .langues_parlees {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	text-align: right;
+	font-size: 1.4vmax;
 }
 
 .langues {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-style: italic;
+	font-size: 1.4vmax;
 	text-align: right;
 	width: 100%;
-}
-
-.langues p span {
-	text-align: left;
+	display: flex;
+	justify-content: space-between;
 }
 
 
@@ -140,16 +151,62 @@ h4 {
 /* Expérience */
 h3 {
 	font-family: 'kionabold';
+	font-size: 2.3vmax;
+}
+
+.e-artsup {
+
+}
+
+.permis {
+
+}
+
+.lycee {
+
+}
+
+.description_ex {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.4vmax;
 }
 
 .années {
 	font-family: 'kionabold';
+	font-size: 2vmax;
+	background-color: #fef082;
+ 	width: 25%;
+ 	height: 1.4vmax;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+
 }
 
 .experiences_titre {
 	text-align: left;
+	width: 75%;
 }
 
 .texte_jaune {
+
+}
+
+/* Gros titre jaune */
+
+h1 {
+
 	color: #fef082;
 	font-family: 'kionabold'; 
+	font-size: 8vmax;
+
+}
+
+/* Compétences */
+
+
+h3 span {
+	text-align: left;
+}
+
+
